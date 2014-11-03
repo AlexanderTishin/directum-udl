@@ -1,7 +1,7 @@
 ﻿directum-udl
 ============
 
-Universal Directum Library версия от 22.10.2014
+Universal Directum Library версия от 31.10.2014
 
 
 Platforms
