@@ -46,6 +46,7 @@ Contents
    * UDL_URLEncode
 * Работа с документами
    * UDL_GetEDocVersionCreateDate
+   * UDL_ShowEDocument
 * Работа с задачами и заданиями
    * UDL_AbortTaskByID
    * UDL_GetTaskHierarchy
@@ -108,7 +109,6 @@ Contents
    * UDL_SetAvailabilityReferenceActions
    * UDL_SetAvailabilityRequisites
    * UDL_SetRequisiteValueWithDisabledEvents
-   * UDL_ShowEDocument
    * UDL_ShowLinkedReference
    * UDL_ShowReferenceCard
    * UDL_UserHasPrivilegesViewAllRecords
