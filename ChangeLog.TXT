@@ -1,0 +1,5 @@
+31.10.2014
+Модифицирована функция UDL_SetAvailabilityRequisites - добавлена проверка if Record.Requisites(RequisiteName).CanGUIRead
+
+29.10.2014 
+Добавлена функция UDL_ZIPArchive - Функция предназначен для сжатия файлов или папки в ZIP-архив
