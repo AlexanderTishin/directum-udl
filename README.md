@@ -1,7 +1,7 @@
 ﻿directum-udl
 ============
 
-Universal Directum Library версия от 31.10.2014
+Universal Directum Library версия от 09.02.2015
 
 
 Platforms
@@ -48,6 +48,7 @@ Contents
    * UDL_GetEDocVersionCreateDate
    * UDL_ShowEDocument
 * Работа с задачами и заданиями
+   * UDL_AbortJobByWorkFlowBlockID
    * UDL_AbortTaskByID
    * UDL_GetTaskHierarchy
    * UDL_PerformJobByID
@@ -55,10 +56,12 @@ Contents
    * UDL_ReportExecute
 * Работа с пользователями и работниками
    * UDL_CreateUser
+   * UDL_DeleteUser
    * UDL_GetAllHeadOfDepartments
    * UDL_GetCurrentUser
    * UDL_GetGroupMembers
    * UDL_GetSingleEmployeeByUserID
+   * UDL_GetSingleUserByPersonCode
    * UDL_UserIsGroupMember
 * Работа с типовыми маршрутами и ролями
    * UDL_CalculateRoleByAnotherRole
@@ -68,6 +71,7 @@ Contents
    * UDL_CalculateRoleByRefEDocParam
    * UDL_ClearTaskParam
    * UDL_FindValueInTaskParamCollection
+   * UDL_GetRecordNameByReferenceParam
    * UDL_GetRoleMembers
    * UDL_SetTaskParamByAnotherTaskParam
    * UDL_WFBlockApplySpecialRights
@@ -80,6 +84,7 @@ Contents
 * Работа со справочниками и ТКЭД
    * UDL_AttachedToTaskSearch
    * UDL_BoundDocumentSearch
+   * UDL_CheckRecordForDoubles
    * UDL_CheckRecordUniqueness
    * UDL_CheckRequiredRequisite
    * UDL_CopyRequisiteValue
@@ -99,6 +104,7 @@ Contents
    * UDL_GetAddWhereForFilterByOurFirmDetail
    * UDL_GetLeaderReferenceName
    * UDL_GetMaxNumber
+   * UDL_GetRecordDoubles
    * UDL_GetRecordFamily
    * UDL_GetRecordFamilyByCode
    * UDL_GetSubordinateRecords
