@@ -1,7 +1,7 @@
 ﻿directum-udl
 ============
 
-Universal Directum Library версия от 09.02.2015
+Universal Directum Library версия от 10.02.2015
 
 
 Platforms
@@ -55,8 +55,10 @@ Contents
 * Работа с отчетами
    * UDL_ReportExecute
 * Работа с пользователями и работниками
+   * UDL_CreateOrUpdateUserGroup
    * UDL_CreateUser
    * UDL_DeleteUser
+   * UDL_GenerateDBUser
    * UDL_GetAllHeadOfDepartments
    * UDL_GetCurrentUser
    * UDL_GetGroupMembers
@@ -107,14 +109,19 @@ Contents
    * UDL_GetRecordDoubles
    * UDL_GetRecordFamily
    * UDL_GetRecordFamilyByCode
+   * UDL_GetReferenceSingularTitle
    * UDL_GetSubordinateRecords
    * UDL_SelectAutomatedEmployees
+   * UDL_SelectFromReferenceAction
    * UDL_SelectHeadOfOurFirms
    * UDL_SetAvailabilityActions
    * UDL_SetAvailabilityControls
    * UDL_SetAvailabilityReferenceActions
    * UDL_SetAvailabilityRequisites
+   * UDL_SetRecordFormTitle
    * UDL_SetRequisiteValueWithDisabledEvents
+   * UDL_SetVisibilityActions
+   * UDL_ShowFilteredReference
    * UDL_ShowLinkedReference
    * UDL_ShowReferenceCard
    * UDL_UserHasPrivilegesViewAllRecords
